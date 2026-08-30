@@ -1,0 +1,23 @@
+# Personal local config (Tesseract/Poppler paths) — never commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Anything processed locally that shouldn't be versioned
+*.docx
+*.xlsx
+uploads/
+outputs/
